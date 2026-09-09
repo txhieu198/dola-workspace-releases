@@ -8,6 +8,10 @@ Kho public chỉ dùng để phát hành bộ cài Dola Workspace. Source chính
 
 Linux Mint/Ubuntu x86_64 nên tải file `.deb`. File `.AppImage` dành cho chế độ portable.
 
+- [Tải Dola Workspace `.deb`](https://github.com/txhieu198/dola-workspace-releases/releases/download/v1.0.0/DolaWorkspace-1.0.0-linux-x64.deb)
+- [Tải Dola Workspace `.AppImage`](https://github.com/txhieu198/dola-workspace-releases/releases/download/v1.0.0/DolaWorkspace-1.0.0-linux-x64.AppImage)
+- [Tải SHA256SUMS](https://github.com/txhieu198/dola-workspace-releases/releases/download/v1.0.0/SHA256SUMS)
+
 ## Cài trên Linux Mint
 
 ```bash
