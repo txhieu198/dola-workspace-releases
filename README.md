@@ -10,6 +10,8 @@ Linux Mint/Ubuntu x86_64 nên tải file `.deb`. File `.AppImage` dành cho ch�
 
 - [Tải Dola Workspace `.deb`](https://github.com/txhieu198/dola-workspace-releases/releases/download/v1.0.0/DolaWorkspace-1.0.0-linux-x64.deb)
 - [Tải Dola Workspace `.AppImage`](https://github.com/txhieu198/dola-workspace-releases/releases/download/v1.0.0/DolaWorkspace-1.0.0-linux-x64.AppImage)
+- [Tải bộ cài Windows](https://github.com/txhieu198/dola-workspace-releases/releases/download/v1.0.0/DolaWorkspace-Setup-1.0.0-win-x64.exe)
+- [Tải Windows portable](https://github.com/txhieu198/dola-workspace-releases/releases/download/v1.0.0/DolaWorkspace-1.0.0-x64.exe)
 - [Tải SHA256SUMS](https://github.com/txhieu198/dola-workspace-releases/releases/download/v1.0.0/SHA256SUMS)
 
 ## Cài trên Linux Mint

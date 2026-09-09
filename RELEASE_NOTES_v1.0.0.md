@@ -1,11 +1,13 @@
 ## Tải xuống
 
-> Linux Mint/Ubuntu x86_64: ưu tiên file `.deb`. Bỏ qua mục Source code tự sinh của GitHub.
+> Bỏ qua mục Source code tự sinh của GitHub. Hãy tải đúng bộ cài cho hệ điều hành.
 
 | File | Mục đích |
 | --- | --- |
 | `DolaWorkspace-1.0.0-linux-x64.deb` | Bộ cài cho Linux Mint/Ubuntu |
 | `DolaWorkspace-1.0.0-linux-x64.AppImage` | Bản portable, không cần cài |
+| `DolaWorkspace-Setup-1.0.0-win-x64.exe` | Bộ cài Windows có shortcut và trình gỡ cài đặt |
+| `DolaWorkspace-1.0.0-x64.exe` | Bản Windows portable, chạy ngay không cần cài |
 | `SHA256SUMS` | Mã kiểm tra tính toàn vẹn |
 
 ## Điểm chính
@@ -24,6 +26,11 @@ sudo apt install ffmpeg
 ```
 
 Mở **Dola Workspace** từ menu ứng dụng.
+
+## Windows
+
+- Muốn cài đặt bình thường: chạy `DolaWorkspace-Setup-1.0.0-win-x64.exe`.
+- Muốn dùng portable: chạy `DolaWorkspace-1.0.0-x64.exe`.
 
 AppImage portable:
 
