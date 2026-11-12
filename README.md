@@ -1,16 +1,22 @@
-# Dola Workspace Releases
+# HLA Worker Releases
 
-Kho public chỉ dùng để phát hành bộ cài Dola Workspace. Source chính được giữ riêng.
+Kho public chỉ dùng để phát hành bộ cài HLA Worker (trước bản 2.6.0 tên là Dola Workspace). Source chính được giữ riêng.
 
 ## Tải bản mới nhất
 
 [Mở trang phát hành mới nhất](https://github.com/txhieu198/dola-workspace-releases/releases/latest)
 
-Bản hiện tại: **2.5.6**. FFmpeg đã được đóng gói sẵn, không cần cài thêm.
+Bản hiện tại: **2.6.0**. FFmpeg đã được đóng gói sẵn, không cần cài thêm.
 
-- [Tải Dola Workspace cho Windows (portable `.exe`)](https://github.com/txhieu198/dola-workspace-releases/releases/download/v2.5.6/DolaWorkspace-2.5.6-x64.exe)
-- [Tải Dola Workspace cho Linux Mint/Ubuntu x86_64 (`.AppImage`)](https://github.com/txhieu198/dola-workspace-releases/releases/download/v2.5.6/DolaWorkspace-2.5.6-linux-x64.AppImage)
-- [Tải SHA256SUMS](https://github.com/txhieu198/dola-workspace-releases/releases/download/v2.5.6/SHA256SUMS)
+- [Tải HLA Worker cho Windows (portable `.exe`)](https://github.com/txhieu198/dola-workspace-releases/releases/download/v2.6.0/HLAWorker-2.6.0-x64.exe)
+- [Tải HLA Worker cho Linux Mint/Ubuntu x86_64 (`.AppImage`)](https://github.com/txhieu198/dola-workspace-releases/releases/download/v2.6.0/HLAWorker-2.6.0-linux-x64.AppImage)
+- [Tải SHA256SUMS](https://github.com/txhieu198/dola-workspace-releases/releases/download/v2.6.0/SHA256SUMS)
+
+## Chuyển từ Dola Workspace
+
+HLA Worker dùng tiếp thư mục dữ liệu của Dola Workspace (`%APPDATA%\DolaWorkspace` trên Windows,
+`~/.config/DolaWorkspace` trên Linux): đăng nhập, profile, extension và máy vẽ giữ nguyên.
+Thoát hẳn Dola Workspace (menu khay "Thoát hoàn toàn") rồi mới mở HLA Worker; hai bản không chạy cùng lúc trên một máy.
 
 ## Chạy trên Windows
 
@@ -20,14 +26,14 @@ Tải file `.exe` rồi mở trực tiếp; bản portable không cần cài đ�
 
 ```bash
 cd ~/Downloads
-chmod +x DolaWorkspace-2.5.6-linux-x64.AppImage
-./DolaWorkspace-2.5.6-linux-x64.AppImage
+chmod +x HLAWorker-2.6.0-linux-x64.AppImage
+./HLAWorker-2.6.0-linux-x64.AppImage
 ```
 
 Nếu máy thiếu FUSE:
 
 ```bash
-./DolaWorkspace-2.5.6-linux-x64.AppImage --appimage-extract-and-run
+./HLAWorker-2.6.0-linux-x64.AppImage --appimage-extract-and-run
 ```
 
 ## Máy vẽ
