@@ -6,11 +6,11 @@ Kho public chỉ dùng để phát hành bộ cài HLA Worker (trước bản 2.
 
 [Mở trang phát hành mới nhất](https://github.com/txhieu198/dola-workspace-releases/releases/latest)
 
-Bản hiện tại: **2.6.0**. FFmpeg đã được đóng gói sẵn, không cần cài thêm.
+Bản hiện tại: **2.6.1**. FFmpeg đã được đóng gói sẵn, không cần cài thêm.
 
-- [Tải HLA Worker cho Windows (portable `.exe`)](https://github.com/txhieu198/dola-workspace-releases/releases/download/v2.6.0/HLAWorker-2.6.0-x64.exe)
-- [Tải HLA Worker cho Linux Mint/Ubuntu x86_64 (`.AppImage`)](https://github.com/txhieu198/dola-workspace-releases/releases/download/v2.6.0/HLAWorker-2.6.0-linux-x64.AppImage)
-- [Tải SHA256SUMS](https://github.com/txhieu198/dola-workspace-releases/releases/download/v2.6.0/SHA256SUMS)
+- [Tải HLA Worker cho Windows (portable `.exe`)](https://github.com/txhieu198/dola-workspace-releases/releases/download/v2.6.1/HLAWorker-2.6.1-x64.exe)
+- [Tải HLA Worker cho Linux Mint/Ubuntu x86_64 (`.AppImage`)](https://github.com/txhieu198/dola-workspace-releases/releases/download/v2.6.1/HLAWorker-2.6.1-linux-x64.AppImage)
+- [Tải SHA256SUMS](https://github.com/txhieu198/dola-workspace-releases/releases/download/v2.6.1/SHA256SUMS)
 
 ## Chuyển từ Dola Workspace
 
@@ -26,14 +26,14 @@ Tải file `.exe` rồi mở trực tiếp; bản portable không cần cài đ�
 
 ```bash
 cd ~/Downloads
-chmod +x HLAWorker-2.6.0-linux-x64.AppImage
-./HLAWorker-2.6.0-linux-x64.AppImage
+chmod +x HLAWorker-2.6.1-linux-x64.AppImage
+./HLAWorker-2.6.1-linux-x64.AppImage
 ```
 
 Nếu máy thiếu FUSE:
 
 ```bash
-./HLAWorker-2.6.0-linux-x64.AppImage --appimage-extract-and-run
+./HLAWorker-2.6.1-linux-x64.AppImage --appimage-extract-and-run
 ```
 
 ## Máy vẽ
